@@ -62,7 +62,7 @@ class VideoCallWidget extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50),
                       color: const Color(0xff4DC9D1)),
                   child: SvgPicture.asset(
-                    'assets/svgs/Video_icon.svg',
+                    'assets/svgs/video_icon.svg',
                   )))
         ],
       ),

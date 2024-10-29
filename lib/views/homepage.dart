@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:task_7/constants/app_colors.dart';
 import 'package:task_7/constants/app_constats.dart';
+import 'package:task_7/constants/app_svg_icon.dart';
 import 'package:task_7/widgets/category_item_builder_widget.dart';
 
 import 'package:task_7/widgets/video_call_widget.dart';
@@ -24,7 +25,7 @@ class _HomepageState extends State<Homepage> {
           ListTile(
             trailing: Stack(
               children: [
-                SvgPicture.asset('assets/svgs/notification.svg'),
+                SvgPicture.asset(AppSvgIcon.notification),
                 Positioned(
                   top: 0,
                   right: 0,
@@ -45,7 +46,7 @@ class _HomepageState extends State<Homepage> {
             title: const Text('Hallo, Samuel!'),
             subtitle: Row(
               children: [
-                SvgPicture.asset('assets/svgs/award.svg'),
+                SvgPicture.asset(AppSvgIcon.award),
                 const SizedBox(
                   width: 2.5,
                 ),
